@@ -7,3 +7,11 @@
 - Set up breakpoints: `~/base/breakpoints.scss`
 - Set up typography: `~/base/typography.scss`
 - Add variables: `~/base/variables.scss`
+
+## Storybook UI setup:
+
+### In `/storybook/theme.ts` set up:
+
+- breakpoints
+- theme
+- background colors dark/light
