@@ -1,4 +1,5 @@
-# Initial Lean Deisgn System architecture
+# Initial Lean Deisgn System structure
+(storybook DS)
 
 - `preview.ts` is equivalent to `index.html` -> include files/edit storybook behavior here
 
