@@ -1,17 +1,16 @@
 # Initial Lean Deisgn System structure
-(storybook DS)
 
-- `preview.ts` is equivalent to `index.html` -> include files/edit storybook behavior here
+- `preview.ts` is equivalent to `index.html` -> include files/edit storybook behavior there
 
 ## Getting project ready for development:
 
-- Set up breakpoints: `~/base/breakpoints.scss`
-- Set up typography: `~/base/typography.scss`
-- Add variables: `~/base/variables.scss`
+1. Set up breakpoints: `~/base/breakpoints.scss`
+2. Set up typography: `~/base/typography.scss`
+3. Add variables: `~/base/variables.scss`
 
-## Storybook UI setup:
+## Storybook UI adjustment:
 
-### In `/storybook/theme.ts` set up:
+In `/storybook/preview.ts` set up:
 
 - breakpoints
 - theme
