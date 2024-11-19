@@ -1,1 +1,5 @@
-@import "./components/Button/button.scss"
+@use "./base/reset-css.scss";
+@use "./base/typography.scss";
+@use "./base/variables.scss";
+//Components
+@use "./components/Button/button.scss";
