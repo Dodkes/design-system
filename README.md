@@ -11,17 +11,18 @@ Intend is to provide a basic structure and fast setup for a project so developer
 
 ## 2 Adjust Storybook UI:
 
-#### 2.1 In `/storybook/preview.ts` set up:
+#### 2.1 Adjust **preview** window
 
-Changes are related to preview window.
+In `/storybook/preview.ts` set up:
 
 - breakpoints
 - theme
 - background colors dark/light
 
-#### 2.2 In `storybook/manager.ts` set up:
+#### 2.2 Adjust **manager** - left panel
 
-Changes are related to manager window (Left panel).\
+In `storybook/manager.ts` set up:
+
 **Note:** _with each change restart storybook server._
 
 ```jsx

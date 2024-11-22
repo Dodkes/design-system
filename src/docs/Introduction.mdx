@@ -13,17 +13,17 @@ Intend is to provide a basic structure and fast setup for a project so developer
 
 ## 2 Adjust Storybook UI:
 
-#### 2.1 In `/storybook/preview.ts` set up:
-Changes are related to preview window.
+#### 2.1 Adjust **preview** window
+In `/storybook/preview.ts` set up:
 
 - breakpoints
 - theme
 - background colors dark/light
 
-#### 2.2 In `storybook/manager.ts` set up:
-Changes are related to manager window (Left panel).\
-**Note:** *with each change restart storybook server.*
+#### 2.2 Adjust **manager** - left panel
+In `storybook/manager.ts` set up:
 
+**Note:** *with each change restart storybook server.*
 ```jsx
 import { addons } from "@storybook/manager-api";
 import { create } from "@storybook/theming";
