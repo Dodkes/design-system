@@ -1,8 +1,12 @@
 import type { Preview } from "@storybook/react";
+import { customTheme } from "./storyBookTheme";
 import "../src/index.scss";
 
 const preview: Preview = {
   parameters: {
+	docs: {
+		theme: customTheme,
+	},
     controls: {
       matchers: {
         color: /(background|color)$/i,

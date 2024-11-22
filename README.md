@@ -3,15 +3,15 @@
 Starting point for a design system project.\
 Intend is to provide a basic structure and fast setup for a project so developers can focus on the design and development of components.
 
-## 1 Run the project
+## **1 Run the project**
 
 - Clone the repository
 - Run `npm install` to install necessary dependencies
 - Run `npm run storybook` to start the project
 
-## 2 Adjust Storybook UI:
+## **2 Adjust Storybook UI**
 
-#### 2.1 Adjust **preview** window
+#### **2.1 Adjust preview window**
 
 In `/storybook/preview.ts` set up:
 
@@ -19,11 +19,26 @@ In `/storybook/preview.ts` set up:
 - theme
 - background colors dark/light
 
-#### 2.2 Adjust **manager** - left panel
+Define **preview** window styling in `storybook/storybookTheme.ts`:
 
-In `storybook/manager.ts` set up:
+```jsx
+import { create } from "@storybook/theming";
+
+export const customTheme = create({
+  base: "light",
+  textColor: "black",
+  textInverseColor: "#FFFFFF",
+  barBg: "black",
+  barTextColor: "#FFFFFF",
+  barHoverColor: "rgba(255, 255, 255, 0.7)",
+});
+```
 
 **Note:** _with each change restart storybook server._
+
+#### **2.2 Adjust manager - left panel**
+
+In `storybook/manager.ts` set up:
 
 ```jsx
 import { addons } from "@storybook/manager-api";
@@ -44,7 +59,7 @@ addons.setConfig({
 });
 ```
 
-## 3 Get project ready for development:
+## **3 Get project ready for development**
 
 1. Set up breakpoints: `~/base/breakpoints.scss`
 2. Set up typography: `~/base/typography.scss`
