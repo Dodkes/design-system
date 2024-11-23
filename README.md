@@ -64,3 +64,7 @@ addons.setConfig({
 1. Set up breakpoints: `~/base/breakpoints.scss`
 2. Set up typography: `~/base/typography.scss`
 3. Add variables: `~/base/variables.scss`
+
+### Build project
+
+Once done with development, run `npm run build` to build the storybook project.
