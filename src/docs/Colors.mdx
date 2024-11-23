@@ -1,0 +1,27 @@
+import { ColorItem, ColorPalette, Meta } from "@storybook/blocks";
+
+<Meta title="Design System/Colors" />
+
+You can also add a color palette to your documentation. This is a great way to show the colors used in your design system.
+
+In `src/docs/Colors.mdx` file, add the following content:
+
+## Brand colors
+
+<ColorPalette>
+    <ColorItem
+        title="new-brand"
+        subtitle="--variable-name-xx"
+        colors={["#000000", "#FFFFFF"]}
+    />
+</ColorPalette>
+
+## Primary colors
+
+<ColorPalette>
+    <ColorItem
+        title="Gray"
+        subtitle="--variable-name-xx"
+        colors={{10: "#000000", 20: "#1a1a1a", 30: "#333333", 40: "#4d4d4d", 50: "#666666", 60: "#808080", 70: "#999999", 80: "#b3b3b3", 90: "#cccccc", 100: "#e6e6e6"}}
+    />
+</ColorPalette>
