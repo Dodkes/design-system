@@ -7,7 +7,7 @@ Intend is to provide a basic structure and fast setup for a project so developer
 
 - Clone the repository
 - Run `npm install` to install necessary dependencies
-- Run `npm run storybook` to start the project
+- Run `npm run dev` to start the project
 
 ## **2 Adjust Storybook UI**
 
@@ -67,4 +67,4 @@ addons.setConfig({
 
 ### Build project
 
-Once done with development, run `npm run build` to build the storybook project.
+Once done with development, run `npm run build:storybook` to build the storybook project.
