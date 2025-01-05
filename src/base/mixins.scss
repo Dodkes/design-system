@@ -1,0 +1,42 @@
+@use "../base/breakpoints.scss" as bp;
+
+@mixin heading {
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 28px;
+
+    @media (min-width: bp.$breakpoint-md) {
+        font-size: 28px;
+    }
+
+    @media (min-width: bp.$breakpoint-lg) {
+        font-size: 28px;
+    }
+
+    @media (min-width: bp.$breakpoint-xl) {
+        font-size: 28px;
+    }
+}
+
+@mixin paragraph {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+
+    @media (min-width: bp.$breakpoint-md) {
+        font-size: 16px;
+    }
+
+    @media (min-width: bp.$breakpoint-lg) {
+        font-size: 16px;
+    }
+
+    @media (min-width: bp.$breakpoint-xl) {
+        font-size: 18px;
+    }
+}
+
+@mixin danger {
+    color: red;
+    font-weight: bold;
+}
