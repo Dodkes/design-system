@@ -69,3 +69,8 @@ addons.setConfig({
 ### Build project
 
 Once done with development, run `npm run build:storybook` to build the storybook project.
+
+### _Addons_
+
+Project also includes HTML addon output to be able to see raw HTML for each component story.
+[@whitespace/storybook-addon-html](https://www.npmjs.com/package/@whitespace/storybook-addon-html?activeTab=readme)

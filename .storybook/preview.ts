@@ -4,6 +4,12 @@ import "../src/index.scss";
 
 const preview: Preview = {
   parameters: {
+	html: {
+		prettier: {
+		  tabWidth: 2,
+		  useTabs: false,
+		},
+	  },
 	docs: {
 		theme: customTheme,
 	},
